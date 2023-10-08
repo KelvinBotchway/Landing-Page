@@ -1,3 +1,42 @@
-*{
-    background-color: aquamarine;
+* {
+  box-sizing: border-box;
+  font-family: "Poppins";
+  font-size: 15px;
+  margin: 0;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  background-color: #003466;
+  color: white;
+  width: 100%; /* Add this line */
+}
+
+.ul-left {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+.ul-left li {
+  padding: 14px 16px;
+}
+
+.ul-right {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+.ul-right li {
+  padding: 14px 16px;
+}
+
+.nav img{
+  width: 80px;
+  padding-left: 50px;
 }
