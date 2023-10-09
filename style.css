@@ -1,7 +1,6 @@
 * {
   box-sizing: border-box;
   font-family: "Poppins";
-  font-size: 15px;
   margin: 0;
 }
 
@@ -37,7 +36,7 @@
 }
 
 .nav img {
-  width: 80px;
+  width: 120px;
 }
 
 .nav2 {
@@ -53,7 +52,6 @@
   flex-direction: row;
   list-style: none;
   text-transform: capitalize;
-
 }
 
 .nav2 ul > li {
@@ -64,91 +62,70 @@
   font-size: 18px;
 }
 
-.carousel {
-  width: 100%;
-  height: 500px;
-  position: relative;
+.contain {
+  margin: auto;
 }
 
-.slide-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
+.service {
+  margin: 50px auto auto 10%;
 }
 
-.slide-list li {
-  float: left;
-  width: 100%;
-  height: 100%;
+.card {
+  display: flex;
+  flex-direction: row;
+  margin: 2% 11%;
 }
 
-.slide-list img {
-  width: 100%;
-  height: 100%;
+.card-details {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 60px 30px;
+  border: solid 1px white;
+  font-size: 14px;
+  box-shadow: 10px 10px 20px #e8e8e8;
+  margin: 0 2%;
+  border-radius: 5px;
 }
 
-.carousel-controls {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
+.card-details p {
+  margin-top: 40px;
+}
+
+.card-details button {
+  width: auto;
+  margin: 50px auto 20px;
+  background-color: #1366a9;
+  color: #e8e8e8;
+  border: none;
+  box-shadow: 10px;
   padding: 10px;
-  text-align: center;
-}
-
-.carousel-controls button {
+  border-radius: 3px;
   cursor: pointer;
-  border: 1px solid #ccc;
+  transition: 0.8s;
+}
+
+.card-details button:hover {
+  color: #1366a9;
+  background-color: white;
+}
+
+.contain1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 50px 50px;
+  background-color: #003466;
+  color: white;
+  font-size: xx-large;
+ 
+}
+
+.button1 button {
+  background-color: #e8e8e8;
   padding: 5px 10px;
-  margin: 0 5px;
-}
-
-.carousel-controls .prev-button {
-  float: left;
-}
-
-.carousel-controls .next-button {
-  float: right;
-}
-
-/* Auto-change images */
-.carousel .slide-list li {
-  display: none;
-}
-
-.carousel .slide-list li:first-child {
-  display: block;
-}
-
-setInterval(function() {
-  var currentSlide = $('.carousel .slide-list li:visible');
-  var nextSlide = currentSlide.next();
-
-  if (nextSlide.length > 0) {
-    currentSlide.fadeOut(500);
-    nextSlide.fadeIn(500);
-  } else {
-    currentSlide.fadeOut(500);
-    $('.carousel .slide-list li:first-child').fadeIn(500);
-  }
-}, 5000); /* Change images every 5 seconds */
-
-
-
-
-.section-title h2::after {
-  content: "";
-  position: absolute;
-  display: block;
-  width: 50px;
-  height: 3px;
-  background: #149ddd;
-  bottom: 0;
-  left: 0;
+  border: none;
+  border-radius: 50px;
+  color: #072c4a;
+  font-size: large;
+  text-transform: uppercase;
 }
