@@ -45,6 +45,7 @@
   justify-content: space-around;
   align-items: center;
   height: 80px;
+  
 }
 
 .nav2 ul {
@@ -59,7 +60,7 @@
   text-transform: uppercase;
   color: #003466;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .contain {
@@ -117,7 +118,6 @@
   background-color: #003466;
   color: white;
   font-size: xx-large;
- 
 }
 
 .button1 button {
@@ -128,4 +128,11 @@
   color: #072c4a;
   font-size: large;
   text-transform: uppercase;
+}
+
+.card-details img {
+  color: #003466;
+  width: 50px;
+  margin-bottom: 30px;
+  height: 40px;
 }
