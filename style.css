@@ -45,7 +45,6 @@
   justify-content: space-around;
   align-items: center;
   height: 80px;
-  
 }
 
 .nav2 ul {
@@ -135,4 +134,69 @@
   width: 50px;
   margin-bottom: 30px;
   height: 40px;
+}
+
+.who {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.img-w img {
+  width: 400px;
+  height: 400px;
+}
+
+.clients {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.ico {
+  width: 40px;
+  height: 30px;
+}
+
+.main {
+  margin: 40px 80px;
+}
+
+.who {
+  margin-top: 30px;
+}
+
+.btn1 {
+  text-align: center;
+}
+
+.btn1 button {
+  border: solid 1px #1366a9;
+  padding: 10px 10px;
+  background: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: 0.5s;
+  margin-top: 50px;
+
+}
+
+.btn1 button:hover{
+  background-color: #1366a9;
+  color: white;
+
+}
+
+.icon-t{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 30px;
+  margin: 50px 0px 0px 40px;
+}
+
+
+.text-about p,h3{
+margin-top: 10px;
 }
