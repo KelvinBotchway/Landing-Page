@@ -179,16 +179,14 @@
   cursor: pointer;
   transition: 0.5s;
   margin-top: 50px;
-
 }
 
-.btn1 button:hover{
+.btn1 button:hover {
   background-color: #1366a9;
   color: white;
-
 }
 
-.icon-t{
+.icon-t {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -196,7 +194,43 @@
   margin: 50px 0px 0px 40px;
 }
 
+.text-about p,
+h3 {
+  margin-top: 10px;
+}
 
-.text-about p,h3{
-margin-top: 10px;
+.container {
+  background-image: url(BANNERS-IMAGES-02.jpg);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.uptodate {
+  margin: 15px 0px;
+}
+
+.uptodate input {
+  height: 60px;
+}
+
+.emai {
+  border-radius: 50px 0px 0px 50px;
+  width: 500px;
+  padding-right: 12px;
+  padding-left: 20px;
+  border: none;
+}
+.uptodate p {
+  margin: 10px 0px 0px 0px;
+}
+
+.right {
+  border-radius: 0px 50px 50px 0px;
+  margin-left: 0px;
+  border: none;
+  margin-left: -5px;
+  padding: 0px 20px 0px 20px;
 }
