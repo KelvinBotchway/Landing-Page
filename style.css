@@ -209,11 +209,12 @@ h3 {
 }
 
 .uptodate {
-  margin: 15px 0px;
+  margin: 30px 0px;
 }
 
 .uptodate input {
   height: 60px;
+  margin-top: 20px;
 }
 
 .emai {
@@ -233,4 +234,44 @@ h3 {
   border: none;
   margin-left: -5px;
   padding: 0px 20px 0px 20px;
+}
+
+.description img {
+  width: 10%;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  width: 33.3%;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-container {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  color: rgba(255, 255, 255, 0.733);
+
+  font-size: smaller;
+  padding-top: 30px;
+}
+.sitemap {
+  margin-bottom: 10px;
+}
+
+.main-foot {
+  background-color: #003466;
+ padding: 0px 100px;
+}
+
+.foot-p {
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
